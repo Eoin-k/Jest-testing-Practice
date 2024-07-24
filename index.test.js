@@ -29,3 +29,17 @@ test('multiply 2 numbers', () => {
     expect(formulas.calculator.multiply(5,3)).toBe(15)
 })
 
+test('Cesar shift 1', () => {
+    expect(formulas.cesarCipher("HeLLo",3)).toBe("KhOOr")
+})
+
+test('Cesar shift 2', () => {
+    expect(formulas.cesarCipher("Hello, World!",3)).toBe("Khoor, Zruog!")
+})
+
+test('Cesar shift 3', () => {
+    expect(formulas.cesarCipher("The Odin Project is useful",3)).toBe("Wkh Rglq Surmhfw lv xvhixo")
+})
+
+
+
